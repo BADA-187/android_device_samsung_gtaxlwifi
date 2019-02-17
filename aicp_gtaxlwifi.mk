@@ -34,6 +34,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # AICP Device Maintainers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="followmsi"
+    DEVICE_MAINTAINERS="srgrusso"
 
 BUILD_FINGERPRINT := Xiaomi/sagit/sagit:7.1.1/NMF26X/V8.2.17.0.NCACNEC:user/release-keys
