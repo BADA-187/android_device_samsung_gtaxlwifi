@@ -34,6 +34,12 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # boot animation.
 TARGET_BOOT_ANIMATION_RES := 1080
+
+# gapps arch
 TARGET_GAPPS_ARCH := arm64
+
+# Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="srgrusso"
 
 BUILD_FINGERPRINT := Xiaomi/sagit/sagit:7.1.1/NMF26X/V8.2.17.0.NCACNEC:user/release-keys
