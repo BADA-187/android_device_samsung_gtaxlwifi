@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/aosp/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := aosp_gtaxlwifi
@@ -32,7 +32,7 @@ PRODUCT_MODEL := SM-T580
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-# PixelExperience stuff.
+# boot animation.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
